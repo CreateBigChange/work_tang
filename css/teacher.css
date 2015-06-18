@@ -1,0 +1,46 @@
+.top
+{
+	float:left;
+}
+img
+{
+	float:left;
+}
+h2
+{
+		float:left;
+}
+.time
+{
+	float:left;
+	clear:left;
+}
+.ziliao
+{
+	
+	float:right;
+}
+.menu
+{
+	float:left;
+	border:3px groove #ffff00;
+	clear:both;
+}
+.menu1
+{
+	float:left;
+	
+	clear:both;
+}
+.menu2
+{
+border: 2px groove blue;
+}
+.down
+{
+	background:blue;
+}
+.selected
+{
+	background:red;
+}

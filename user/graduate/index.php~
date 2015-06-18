@@ -1,0 +1,10 @@
+<html>
+	<head></head>
+	<frameset rows="15%,*" frameborder="1" border="5">
+		<frame>
+		<frameset cols="15%,*" frameborder="1" border="5">
+			<frame>
+			<frame>
+		</frameset>
+	</frameset>
+</html>

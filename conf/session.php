@@ -1,0 +1,12 @@
+<?php
+	$fileName="data.txt";
+	$handle=fopen($fileName,'w');
+	if(isset($_GET['type']))
+	fwrite($handle,$_GET['name'].$_GET['type']);
+	else
+	fwrite($handle,"no");
+session_start();
+$_SESSION['username']=$_GET['name'];
+$_SESSION['type']=$_GET['type'];
+	fclose($handle);
+?>
